@@ -18,7 +18,7 @@ public class PageObject {
 	{
 		username.sendKeys("Lalitha");
 	}
-	public void enter_pass()
+	public void enter_pass() 
 	{
 		password.sendKeys("Password123");
 	}

@@ -5,9 +5,9 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(Features , glue,
+@CucumberOptions(features="feature/login.feature" , glue= {"stepDefination"},
 monochrome=true,
-plugin= {"pretty","html:test-output"})
+plugin= {"pretty","jason:target/cucumber.json"})
 public class LoginRunner {
 
 }
